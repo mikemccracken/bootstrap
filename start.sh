@@ -5,7 +5,7 @@ pkgs='zsh emacs24 ack-grep vcsh'
 
 for pkg in $pkgs
 do
-echo sudo apt get install $pkg
+sudo apt get install $pkg
 done
 
 # get all dotfiles from github using mr
