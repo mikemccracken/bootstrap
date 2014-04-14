@@ -1,4 +1,0 @@
-bootstrap
-=========
-
-dotfiles vcsh etc
