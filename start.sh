@@ -18,8 +18,8 @@ ln -s $HOME/mr/.mrconfig
 
 mr up
 
-# get cask for emacs deps
+# get cask for emacs deps -- ignore for now, cask can't reach repos, I give up
 
-git clone https://github.com/cask/cask.git ~/.cask
+#git clone https://github.com/cask/cask.git ~/.cask
 
-( cd .emacs.d && $HOME/.cask/bin/cask )
+#( cd .emacs.d && $HOME/.cask/bin/cask )
