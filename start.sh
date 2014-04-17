@@ -8,6 +8,7 @@ pkgs='zsh emacs24 ack-grep vcsh'
 
 sudo apt-get install $pkgs
 
+mkdir $HOME/.config
 
 # get all dotfiles from github using mr
 
