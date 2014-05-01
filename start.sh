@@ -4,9 +4,9 @@ set -x
 
 cd $HOME
 
-pkgs='zsh emacs24 ack-grep vcsh'
+pkgs='zsh emacs24 ack-grep vcsh pastebinit'
 
-sudo apt-get install $pkgs
+sudo apt install $pkgs
 
 mkdir $HOME/.config
 
