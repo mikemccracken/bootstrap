@@ -4,7 +4,7 @@ set -x
 
 cd $HOME
 
-pkgs='zsh emacs24 ack-grep vcsh pastebinit python-virtualenv python3-virtualenv'
+pkgs='zsh emacs25-nox ack-grep vcsh pastebinit python-virtualenv python3-virtualenv'
 
 sudo apt install $pkgs
 
