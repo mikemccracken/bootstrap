@@ -4,9 +4,9 @@ set -x
 
 cd $HOME
 
-pkgs='zsh emacs25-nox ack-grep vcsh pastebinit python-virtualenv python3-virtualenv'
+pkgs='emacs25-nox ack-grep vcsh pastebinit'
 
-sudo apt install $pkgs
+sudo apt -y install $pkgs
 
 mkdir $HOME/.config
 
